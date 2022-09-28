@@ -1,5 +1,5 @@
 # cd_player
-CD using HTML gradient effects and CSS
+CD using HTML and CSS gradient effects
 
 Preview :
 
