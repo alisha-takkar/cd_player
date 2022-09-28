@@ -1,0 +1,40 @@
+/* Reset */
+*{
+    /* Alternate box model */
+    box-sizing: border-box;
+
+    /* Reset margin and padding */
+    margin: 0;
+    padding: 0;
+    
+}
+
+:root{
+    --grey : rgb(228, 228, 228);
+}
+
+.main{
+    margin: 140px 50px;
+    width: 250px;
+    height: 250px;
+    border-radius: 900px;
+    background-image: conic-gradient(var(--grey),rgb(42, 208, 202),	rgb(225, 246, 100), 
+    var(--grey), rgb(254, 176, 254), rgb(171, 179, 252), var(--grey), rgb(93, 247, 164), 
+    rgb(88, 196, 246), var(--grey));
+    position: fixed;
+    border: solid 0.2px;
+    border-color: gray;
+    box-shadow: gray 4px 4px 4px;
+}
+
+.div1{
+    margin: 100px 105px;
+    width: 45px;
+    height: 45px;
+    border-radius: 90px;
+    background-color: white;
+    border: solid 0.1px;
+    border-color: gray;
+    box-shadow: inset gray 1px 1px 1.5px;
+}
+
